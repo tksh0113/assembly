@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nasm:
+    build: .
+    volumes:
+      - .:/home/nasm
+    tty: true
